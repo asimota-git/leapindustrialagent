@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LEAP 2025 Virtual Assistants</title>
+<style>
+    * {
+        font-family: "Calibri", Arial, sans-serif;
+    }
+    body {
+        margin: 0;
+        padding: 20px;
+        background: url('background.png') no-repeat center center fixed;
+        background-size: cover;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .logo-container img {
+        height: 50px;
+        margin-right: 15px;
+    }
+    .content {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 70px;
+    }
+    .content h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+    .content p {
+        font-size: 16px;
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+    .chatbot-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+    }
+    .chatbot-container {
+        width: 400px;
+        height: 650px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    
+
+    .chatbot-header {
+    background: linear-gradient(90deg, #573080, #a13cbc, #ff60ff); /* Updated shades */
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+    .event-description {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px;
+        color: #666;
+        background-color: #f7f7f7;
+        text-align: center;
+    }
+    .chatbot-frame {
+        width: 100%;
+        height: calc(100% - 110px);
+        border: none;
+    }
+    .footer {
+        background-color: #00274d;
+        color: white;
+        font-size: 12px;
+        padding: 8px 0;
+        text-align: center;
+    }
+    .copilot-text-container {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<div class="logo-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo">
+    <img src="kpmg.svg" alt="KPMG Logo">
+</div>
+<div class="content">
+    <h1>Welcome to LEAP 2025 Industrial Agent</h1>
+    <p>
+        Explore the capabilities of Agentic AI powered by <strong>Microsoft Services</strong>!
+    </p>
+</div>
+<div class="chatbot-wrapper">
+    <div class="chatbot-container">
+        <div class="chatbot-header">Industrial Agent</div>
+        <div class="event-description">
+            Enjoy exclusive <strong>LEAP 2025</strong> AI content.
+        </div>
+        <iframe 
+            class="chatbot-frame"
+            src="https://copilotstudio.microsoft.com/environments/Default-fc3b3043-d920-470a-8ae0-b2610bb2aea5/bots/cr0c2_flotationAppLeapAgent/webchat?__version__=2">
+        </iframe>
+        <div class="footer">Powered by Copilot</div>
+    </div>
+</div>
+<div class="copilot-text-container">
+</div>
+</body>
+</html>
